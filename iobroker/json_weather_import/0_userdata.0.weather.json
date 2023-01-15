@@ -1,0 +1,403 @@
+{
+  "0_userdata.0.weather": {
+    "common": {
+      "name": "weather"
+    },
+    "type": "folder",
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673785301983,
+    "_id": "0_userdata.0.weather",
+    "acl": {
+      "object": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home": {
+    "common": {
+      "name": "home",
+      "desc": "Manually created",
+      "role": "",
+      "icon": ""
+    },
+    "type": "device",
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673785389411,
+    "_id": "0_userdata.0.weather.home",
+    "acl": {
+      "object": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.dewpt": {
+    "common": {
+      "name": "dewpt",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787822695,
+    "_id": "0_userdata.0.weather.home.dewpt",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.heatIndex": {
+    "common": {
+      "name": "heatIndex",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787811941,
+    "_id": "0_userdata.0.weather.home.heatIndex",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.humidity": {
+    "common": {
+      "name": "humidity",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787530350,
+    "_id": "0_userdata.0.weather.home.humidity",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.precipRate": {
+    "common": {
+      "name": "precipRate",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787800403,
+    "_id": "0_userdata.0.weather.home.precipRate",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.precipTotal": {
+    "common": {
+      "name": "precipTotal",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787792021,
+    "_id": "0_userdata.0.weather.home.precipTotal",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.pressure": {
+    "common": {
+      "name": "pressure",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787616592,
+    "_id": "0_userdata.0.weather.home.pressure",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.solarRadiation": {
+    "common": {
+      "name": "solarRadiation",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787687157,
+    "_id": "0_userdata.0.weather.home.solarRadiation",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.states": {
+    "common": {
+      "name": "states",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "object",
+      "read": true,
+      "write": false
+    },
+    "type": "state",
+    "native": {},
+    "_id": "0_userdata.0.weather.home.states",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    },
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673785484240
+  },
+  "0_userdata.0.weather.home.states_timestamp": {
+    "common": {
+      "name": "states_timestamp",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": false,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "_id": "0_userdata.0.weather.home.states_timestamp",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    },
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673788898682
+  },
+  "0_userdata.0.weather.home.temp": {
+    "common": {
+      "name": "temp",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787487830,
+    "_id": "0_userdata.0.weather.home.temp",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.url": {
+    "common": {
+      "name": "url",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "string",
+      "read": true,
+      "write": true,
+      "def": "",
+      "icon": ""
+    },
+    "type": "state",
+    "native": {},
+    "_id": "0_userdata.0.weather.home.url",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    },
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673792004934
+  },
+  "0_userdata.0.weather.home.uv": {
+    "common": {
+      "name": "uv",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787674712,
+    "_id": "0_userdata.0.weather.home.uv",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.windChill": {
+    "common": {
+      "name": "windChill",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787732805,
+    "_id": "0_userdata.0.weather.home.windChill",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.windGust": {
+    "common": {
+      "name": "windGust",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787654196,
+    "_id": "0_userdata.0.weather.home.windGust",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.windSpeed": {
+    "common": {
+      "name": "windSpeed",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787660882,
+    "_id": "0_userdata.0.weather.home.windSpeed",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  },
+  "0_userdata.0.weather.home.winddir": {
+    "common": {
+      "name": "winddir",
+      "desc": "Manually created",
+      "role": "state",
+      "type": "number",
+      "read": true,
+      "write": true,
+      "def": 0
+    },
+    "type": "state",
+    "native": {},
+    "from": "system.adapter.admin.0",
+    "user": "system.user.admin",
+    "ts": 1673787668474,
+    "_id": "0_userdata.0.weather.home.winddir",
+    "acl": {
+      "object": 1636,
+      "state": 1636,
+      "owner": "system.user.admin",
+      "ownerGroup": "system.group.administrator"
+    }
+  }
+}
